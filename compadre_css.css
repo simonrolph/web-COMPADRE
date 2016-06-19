@@ -1,0 +1,176 @@
+body {
+	padding-top:50px;
+}
+
+/* unvisited link */
+a:link {
+    color: #a8a8a8;
+}
+
+/* selected link */
+a:active {
+    color: #ffffff;
+}
+
+/* visited link */
+a:visited {
+    color: #a8a8a8;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #ffffff;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+p {
+    font-size: 13px;
+}
+
+#masthead2 {
+	min-height:22px;
+  	color:#ffffff;
+    position: fixed;
+    width: 100%;
+    background-color:#406449;
+    z-index: 1000;
+    top:50px;
+   
+}
+
+#masthead {
+	min-height:150px;
+  	color:#ffffff;
+z-index: 2000;
+background-color:#406449;
+     position: relative;
+}
+
+
+
+#masthead h1 {
+	font-size: 30px;
+	line-height: 1;
+}
+
+#masthead .well {
+	margin-top:13%;
+	background-color:#111155;
+  	border-color:#000033;
+}
+
+.icon-bar {
+	background-color:#ffffff;
+}
+
+@media screen and (min-width: 768px) {
+	#masthead h1 {
+		font-size: 30px;
+	}
+}
+
+.navbar-bright {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#456d3f+59,456d3f+59,000000+100&0.01+0,0.1+100 */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(69,109,63,0.01) 0%, rgba(69,109,63,0.06) 59%, rgba(0,0,0,0.1) 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(69,109,63,0.01) 0%,rgba(69,109,63,0.06) 59%,rgba(0,0,0,0.1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  rgba(69,109,63,0.01) 0%,rgba(69,109,63,0.06) 59%,rgba(0,0,0,0.1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#03456d3f', endColorstr='#1a000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	background-color:#399d50;
+    color:#ffffff;
+    z-index: 3000;
+}
+
+.navbar-bright a, #masthead .lead {
+  	color:#ffffff;
+}
+
+.navbar-bright li > a:hover {
+    background-color:#62b562;
+}
+
+.affix-top,.affix{
+	position: static;
+}
+
+.table {
+    table-layout: fixed;
+}
+
+.table td {
+   text-align: center;
+    font-size: 10px;
+    
+}
+
+td {
+   padding: 0px; 
+    font-size: 12px;
+}
+
+.panel-heading {
+    cursor: pointer;
+}
+
+
+
+.table-container {
+    width:90%;
+}
+.table-container table {
+    width: 100%;
+}
+
+.scroll-container{
+    border-top:1px solid #ccc;
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.scroll-container td:first-child{
+    border-right: 1px solid #ccc;
+}
+.scroll-container td{
+    border-bottom: 1px solid #ccc;    
+}
+
+input {
+    border:solid 1px #ccc;
+    border-radius: 5px;
+    background: #30462e
+}
+
+footer {
+  background-color: #e2e2e2;
+  color: #868686;
+  padding-bottom: 1000px;
+    text-align: center;
+}
+
+redirect_head {
+  background-color: #399d50;
+  padding-bottom: 50px;
+}
+
+.label {
+    font-size: 10px;
+}
+
+.panel-heading{
+    padding: 0px 5px 0px 5px;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -85px;
+    visibility: hidden;
+}
+
+#infomation{
+    z-index: -1000;
+}
+
