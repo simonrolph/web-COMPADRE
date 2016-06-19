@@ -138,9 +138,8 @@ td {
 }
 
 input {
-    border:solid 1px #ccc;
-    border-radius: 5px;
-    background: #30462e
+    text-align: center;
+  
 }
 
 footer {
@@ -150,10 +149,6 @@ footer {
     text-align: center;
 }
 
-redirect_head {
-  background-color: #399d50;
-  padding-bottom: 50px;
-}
 
 .label {
     font-size: 10px;
@@ -172,5 +167,19 @@ a.anchor {
 
 #infomation{
     z-index: -1000;
+}
+
+.center-div
+{
+  margin: auto;
+    padding:20px;
+  border-radius: 3px;
+    background-color: #406449;
+    position:fixed;
+    width: 100%;
+}
+
+.col1 {
+  width: 230px;
 }
 
